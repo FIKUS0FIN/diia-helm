@@ -26,7 +26,7 @@ spec:
     {{- end }}
       containers:
         - name: {{ .Chart.Name }}
-          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          image: dsroot/diia:2.0
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
