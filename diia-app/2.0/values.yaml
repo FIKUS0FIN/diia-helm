@@ -5,8 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: nginx
-  tag: 1.19
+  repository: dsroot/diia:2.0
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
